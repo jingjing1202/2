@@ -1,0 +1,26 @@
+p,div,form,a,ul,li,input,body,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+	
+}
+ol,ul,li{
+	list-style: none;
+}
+img{
+	border: none;
+	display: block;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+	display: block;
+	clear: both;
+	content: " ";
+	visibility: hidden;
+	height: 0;
+}
